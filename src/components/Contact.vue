@@ -80,6 +80,10 @@
       <button type="submit" class="btn btn-custom" :disabled="isLoading">
         {{ isLoading ? "Sending..." : "Submit" }}
       </button>
+      <!-- recaptcha checkbox -->
+      <div class="d-flex justify-content-end mt-2">
+        <div ref="recaptchaContainer"></div>
+      </div>
     </form>
   </div>
 
@@ -105,10 +109,10 @@ const message = ref("");
 const isLoading = ref(false);
 
 const submitForm = async () => {
-  // if (!recaptchaToken.value) {
-  //   notyf.error("Please verify that you are not a robot.");
-  //   return;
-  // }
+  if (!recaptchaToken.value) {
+    notyf.error("Please verify that you are not a robot.");
+    return;
+  }
 
   isLoading.value = true;
 
@@ -141,57 +145,56 @@ const submitForm = async () => {
 
     isLoading.value = false;
     notyf.error("Failed to send message");
+  } finally {
+    resetRecaptcha();
   }
-  // finally {
-  //   resetRecaptcha();
-  // }
 };
 
-//  const SITE_KEY = "6Lec1BEsAAAAAJbM8aqlgE2RSekJbA5J31Tt4RLf";
+const SITE_KEY = "6LdHLBIsAAAAAHjGWgP2SAgGMaoNcCcGl5Isg1FO";
 
-// const recaptchaContainer = ref(null);
-// const recaptchaWidgetId = ref(null);
-// const recaptchaToken = ref("");
+const recaptchaContainer = ref(null);
+const recaptchaWidgetId = ref(null);
+const recaptchaToken = ref("");
 
-// function onRecaptchaSuccess(token) {
-//   recaptchaToken.value = token;
-// }
+function onRecaptchaSuccess(token) {
+  recaptchaToken.value = token;
+}
 
-// function onRecaptchaExpired() {
-//   recaptchaToken.value = "";
-// }
+function onRecaptchaExpired() {
+  recaptchaToken.value = "";
+}
 
-// function renderRecaptcha() {
-//   if (!window.grecaptcha) {
-//     console.error("reCAPTCHA not loaded");
-//     return;
-//   }
+function renderRecaptcha() {
+  if (!window.grecaptcha) {
+    console.error("reCAPTCHA not loaded");
+    return;
+  }
 
-//   recaptchaWidgetId.value = window.grecaptcha.render(recaptchaContainer.value, {
-//     sitekey: SITE_KEY,
-//     size: "normal",
-//     callback: onRecaptchaSuccess,
-//     "expired-callback": onRecaptchaExpired,
-//   });
-// }
+  recaptchaWidgetId.value = window.grecaptcha.render(recaptchaContainer.value, {
+    sitekey: SITE_KEY,
+    size: "normal",
+    callback: onRecaptchaSuccess,
+    "expired-callback": onRecaptchaExpired,
+  });
+}
 
-// function resetRecaptcha() {
-//   if (recaptchaWidgetId.value !== null) {
-//     window.grecaptcha.reset(recaptchaWidgetId.value);
-//     recaptchaToken.value = "";
-//   }
-// }
+function resetRecaptcha() {
+  if (recaptchaWidgetId.value !== null) {
+    window.grecaptcha.reset(recaptchaWidgetId.value);
+    recaptchaToken.value = "";
+  }
+}
 
-// onMounted(() => {
-//   const interval = setInterval(() => {
-//     if (window.grecaptcha && window.grecaptcha.render) {
-//       renderRecaptcha();
-//       clearInterval(interval);
-//     }
-//   }, 100);
+onMounted(() => {
+  const interval = setInterval(() => {
+    if (window.grecaptcha && window.grecaptcha.render) {
+      renderRecaptcha();
+      clearInterval(interval);
+    }
+  }, 100);
 
-//   onBeforeUnmount(() => {
-//     clearInterval(interval);
-//   });
-// });
+  onBeforeUnmount(() => {
+    clearInterval(interval);
+  });
+});
 </script>
