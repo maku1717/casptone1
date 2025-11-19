@@ -1,0 +1,57 @@
+[
+    {  
+        "id": 1,
+        "title": "E-commerce API Documentation",
+        "description": "Dynamic E-Commerce Workflow Management. The system features dynamic \nroutes for order processing, real-time inventory updates, and secure \nuser authentication. It also supports seamless checkout, order \nreporting and comprehensive product management. Documented Backend API \npublished publicly using Postman.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysvP9KH38wSq0aK3P-1bNwi_tMmVzXP47jQ&s"
+    },
+    {  
+        "id": 2,
+        "title": "Course Booking API Documentation",
+        "description": "RESTful API for managing course enrollments, featuring user \nregistration, authentication, and retrieval of user details. Supports \ncourse creation, updates, archiving, activation, and student \nenrollment. Publicly documented using Postman.",
+        "image": "https://simplybook.me/build/images/trial-section/educational.48c74a47.png"
+    },
+    {  
+        "id": 3,
+        "title": "Course Booking App",
+        "description": "A MERN-stack course enrollment system featuring user registration, \nauthentication, and profile management. Authenticated users can \ncreate, update, archive, and activate courses. The platform also \nallows users to browse available courses and enroll seamlessly.",
+        "image": "https://www.appointy.com/online-class-scheduling-software/uploads/2020/11/Appointy-on-Mobile-Laptop-Tablet.png"
+    },
+    {  
+        "id": 4,
+        "title": "E-commerce App",
+        "description": "MERN E-Commerce Platform. The platform features dynamic product \ncatalog with filtering and sorting, real-time search, seamless cart \nupdates, secure checkout, and a comprehensive admin dashboard with \nreal-time analytics and user management capabilities.",
+        "image": "https://yeeply.com/en/wp-content/uploads/2018/06/Image2-1.jpg"
+    },
+    {  
+        "id": 5,
+        "title": "Airline Booking System Mockup",
+        "description": "Side Project: Conceptual design showcasing an intuitive UI for flight \nsearch, seat selection, and booking confirmation, focusing on user \nexperience and workflow efficiency.",
+        "image": "https://newsroom.haas.berkeley.edu/wp-content/uploads/2023/10/Airline-pricing_Olivia-Natan.jpg"
+    },
+    {  
+        "id": 6,
+        "title": "Airline Booking System Prototype",
+        "description": "Side Project: Interactive prototype simulating end-to-end airline \nbooking functionalities, including flight search, reservation, payment \nprocessing, and real-time ticket management.",
+        "image": "https://cdn.dribbble.com/userupload/37290075/file/original-7bdf97aa028d7d9c36a0ddbe25cafb9c.png"
+    },
+    {  
+        "id": 7,
+        "title": "Short Courses Capstone1",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://i.ytimg.com/vi/K_q3oFm_XLE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWfO-YRUDiGwgBcROu86Yl7lT4gw"
+    },
+    {  
+        "id": 8,
+        "title": "Short Courses Capstone2",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://i.ytimg.com/vi/K_q3oFm_XLE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWfO-YRUDiGwgBcROu86Yl7lT4gw"
+    },
+    {  
+        "id": 9,
+        "title": "Short Courses Capstone3",
+        "description": "Placeholder for your Short courses capstone project.",
+        "image": "https://i.ytimg.com/vi/K_q3oFm_XLE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWfO-YRUDiGwgBcROu86Yl7lT4gw"
+    }
+]
+ 
