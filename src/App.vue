@@ -8,6 +8,7 @@ import FooterComponent from "./components/FooterComponent.vue";
 </script>
 
 <template>
+  <div class="matrix-rain"></div>
   <Navbar />
   <div class="container-fluid">
     <About />

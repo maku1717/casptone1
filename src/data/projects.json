@@ -3,7 +3,8 @@
         "id": 1,
         "title": "E-commerce API Documentation",
         "description": "Dynamic E-Commerce Workflow Management. The system features dynamic \nroutes for order processing, real-time inventory updates, and secure \nuser authentication. It also supports seamless checkout, order \nreporting and comprehensive product management. Documented Backend API \npublished publicly using Postman.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysvP9KH38wSq0aK3P-1bNwi_tMmVzXP47jQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysvP9KH38wSq0aK3P-1bNwi_tMmVzXP47jQ&s",
+        "link": "http://zuitt-bootcamp-prod-572-9138-cornejocortel.s3-website.us-east-1.amazonaws.com/"
     },
     {  
         "id": 2,
@@ -52,6 +53,14 @@
         "title": "Short Courses Capstone3",
         "description": "Placeholder for your Short courses capstone project.",
         "image": "https://i.ytimg.com/vi/K_q3oFm_XLE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWfO-YRUDiGwgBcROu86Yl7lT4gw"
+    },
+    {
+        "id": 10,
+        "title": "Fitness API – Workout Plan Manager",
+        "description": "A fitness management API that allows users to create, update, delete, and track personalized workout plans.",
+        "image": "https://i.ytimg.com/vi/K_q3oFm_XLE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWfO-YRUDiGwgBcROu86Yl7lT4gw",
+        "link":"https://fitness-api-full-stack.vercel.app/"
     }
+
 ]
  
