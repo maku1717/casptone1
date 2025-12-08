@@ -15,12 +15,24 @@
     <div class="buttons">
       <a href="#" class="btn primary">Hire Me</a>
       <a
-        href="/Mark Joshua Amarille CV.pdf"
+        :href="cvUrl"
         target="_blank"
         class="btn primary"
-        download="Mark Joshua Amarille CV.pdf"
+        download="MarkJoshuaAmarilleCV.pdf"
         >Download CV</a
       >
     </div>
   </div>
 </template>
+
+<script>
+import cvUrl from "/assets/MarkJoshuaAmarilleCV.pdf";
+
+export default {
+  data() {
+    return {
+      cvUrl,
+    };
+  },
+};
+</script>
