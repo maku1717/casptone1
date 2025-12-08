@@ -13,7 +13,7 @@
       development.
     </p>
     <div class="buttons">
-      <a href="#" class="btn primary">Hire Me</a>
+      <a href="#contact" class="btn primary">Lets Talk</a>
       <a
         :href="cvUrl"
         target="_blank"
