@@ -35,8 +35,8 @@
         <div class="mb-2">
           <a><i class="fa-brands fa-whatsapp icon mb-2 fa-3x py-1"></i></a>
         </div>
-        <h5 class="py-1">WhatsApp</h5>
-        <p class="mb-1">+69 9274661922</p>
+        <h5 class="py-1">Mobile#</h5>
+        <p class="mb-1">+69 9668120517</p>
         <a href="https://www.whatsapp.com/" target="_blank">Send a message</a>
       </div>
     </div>
