@@ -15,7 +15,7 @@
     <div class="buttons">
       <a href="#" class="btn primary">Hire Me</a>
       <a
-        href="../assets/Mark Joshua Amarille CV.pdf"
+        href="src/assets/Mark Joshua Amarille CV.pdf"
         class="btn primary"
         download="Mark Joshua Amarille CV.pdf"
         >Download CV</a
