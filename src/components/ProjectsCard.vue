@@ -16,3 +16,12 @@ defineProps({
   project: Object,
 });
 </script>
+
+<style scope>
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+</style>
