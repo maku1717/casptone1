@@ -14,7 +14,12 @@
     </p>
     <div class="buttons">
       <a href="#" class="btn primary">Hire Me</a>
-      <a href="#" class="btn primary">Download CV</a>
+      <a
+        href="../assets/Mark Joshua Amarille CV.pdf"
+        class="btn primary"
+        download="Mark Joshua Amarille CV.pdf"
+        >Download CV</a
+      >
     </div>
   </div>
 </template>
