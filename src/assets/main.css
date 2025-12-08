@@ -41,6 +41,7 @@ body::after {
   height: 100%;
   pointer-events: none;
   z-index: -2;
+  overflow-y: hidden;
 }
 
 .matrix-rain::before {
