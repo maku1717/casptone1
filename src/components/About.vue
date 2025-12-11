@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import cvUrl from "/assets/MarkJoshuaAmarilleCV.pdf";
+import cvUrl from "/assets/Mark Joshua Amarille CV.pdf";
 
 export default {
   data() {
