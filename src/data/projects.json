@@ -20,6 +20,20 @@
         "description": "A fitness management API that allows users to create, update, delete, and track personalized workout plans.",
         "image": "https://gymitfitness.com/storage/2024/01/gymit-logo.png",
         "link":"https://fitness-api-full-stack.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "MovieBox – Online Movie Streaming Platform",
+        "description": "A full-stack movie streaming web application where users can browse, search, and view movie details with a smooth and responsive interface. Built to deliver a seamless cinematic experience.",
+        "image": "https://play-lh.googleusercontent.com/Jt-i2A5aQjNlOEMXxNhKuSkbrTUjRJmt1YZjpoWsh6XK3iJRcnZDEyC-x3toPV7vUwqe",
+        "link":"https://movie-api-s86-full-stack.vercel.app/"
+    },
+    {
+        "id": 5,
+        "title": "Airline Ticketing Website",
+        "description": "On going projects.",
+        "image": "https://s.tmimgcdn.com/scr/1600x1000/53100/flight-booking-website-template_53104-original.jpg",
+        "link":"https://movie-api-s86-full-stack.vercel.app/"
     }
 ]
  
