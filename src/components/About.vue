@@ -18,7 +18,7 @@
         :href="cvUrl"
         target="_blank"
         class="btn primary"
-        download="MarkJoshuaAmarilleCV.pdf"
+        download="Mark Joshua Amarille CV.pdf"
         >Download CV</a
       >
     </div>
